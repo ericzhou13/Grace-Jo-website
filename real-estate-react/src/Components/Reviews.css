@@ -1,0 +1,48 @@
+.slick-slide > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.Review-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* centers horizontally */
+    justify-content: center; /* centers vertically if there's extra height */
+    text-align: center; 
+    width: 200px !important;
+    height: 600px !important;
+}
+
+.slick-current{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Review-Title{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.Review-Text{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.Review-Rating{
+
+}
+
+.Review-Name{
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.Client-Reviews{
+
+}
+
+.Slider-Container{
+    justify-content: center;
+}

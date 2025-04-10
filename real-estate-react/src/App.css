@@ -1,0 +1,97 @@
+
+.test{
+  position: relative;
+}
+
+.Header {
+  /* position: relative;
+  border-radius: 2px;
+  background-color: #93c5fd;
+  border-style: solid;
+  border-radius: 2px;
+  border-style: solid;*/
+  position: relative; /* Make this the reference point */
+  background-color: rgb(255, 255, 255);
+  padding: 0rem;
+}
+/* 
+
+.MyNavbar{
+  /* position: absolute;
+  top: 200px;
+  margin: auto;
+  width: 100%;
+  border-style: solid;
+  border-radius: 2px; 
+  position: absolute;
+  top: 200px;  
+  left: 0;
+  background-color: lightcoral;
+  padding: 0.5rem;
+  width: 100%;
+  border-radius: 2px;
+  border-style: solid;
+} */
+
+.VideoList{
+  position: relative;
+  height: auto;
+  top: 50px;
+  bottom: 100px;
+  margin: auto;
+  width: 100%;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.LearnMore{
+  border-radius: 2px;
+  border-style: solid;
+  top: 100px;
+  position: relative; /* Make this the reference point */
+  background-color: darkblue;
+  padding: 1rem;
+  align-items: center;
+}
+
+.PhotoGallery{
+  border-radius: 2px;
+  border-style: solid;
+  top: 100px;
+  position: relative;
+}
+
+.Consultation{
+  border-radius: 2px;
+  border-style: solid;
+  top: 600px;
+  position: relative;
+}
+.Reviews{
+  border-radius: 2px;
+  border-style: solid;
+  top: 150px;
+  left: 360px;
+  position: relative;
+  height: 300px;
+  width: 1200px;
+}
+.ExtraInfo{
+  border-radius: 2px;
+  border-style: solid;
+  top: 500px;
+  position: relative; 
+}
+
+.Footer{
+  border-radius: 2px;
+  border-style: solid;
+  top: 2000px;
+  position: relative;
+}
+
+body, html, #root{
+  height: 100%;
+  margin: 0;
+  overflow: auto; /* or overflow: scroll; */
+}

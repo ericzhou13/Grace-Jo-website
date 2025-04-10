@@ -1,0 +1,46 @@
+.Buyer-Form {
+    padding-left: 500px;
+    padding-right: 500px;
+    margin: auto;
+    width: 100%;
+}
+
+.Seller-Form {
+    padding-left: 500px;
+    padding-right: 500px;
+    margin: auto;
+    width: 100%;
+}
+
+.Form-Group-1{
+    display: block;  /* Ensures the label is treated as a block-level element */
+    text-align: center;  /* Centers the text inside the label */
+}
+
+.Submit-Button{
+    display: block;
+    text-align: center;
+}
+
+.Consultation-Div{
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 70px
+}
+
+.Buyer-Seller-Button {
+    background-color: #3b4ace;
+    width: 200px;   /* Set a specific width */
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Buyer-Seller-Button:active{
+    background-color: #ffffff;
+    width: 200px;   /* Set a specific width */
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

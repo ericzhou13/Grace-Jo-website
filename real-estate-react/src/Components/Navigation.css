@@ -1,0 +1,13 @@
+.Navigation-Bar {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    border: 2px solid black;
+    border-right-color: transparent; /* Hide right border */
+    border-left-color: transparent;
+}
+
+.Navigation-Bar * {
+    color:Grey;
+}
+
