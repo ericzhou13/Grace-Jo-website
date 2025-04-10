@@ -4,7 +4,7 @@ import MyNavbar from "./Navigation"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import korean_flag from "../assets/koreanflag.svg"
-import american_flag from "../assets/americanFlag.png"
+import american_flag from "../assets/AmericanFlag.png"
 import remaxnow from "../assets/remaxnow.png"
 import "./Header.css";
 import "./Navigation.css"
