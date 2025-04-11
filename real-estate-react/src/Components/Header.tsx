@@ -30,13 +30,13 @@ function Header() {
         <Row className="Header-Information-Row">
           <Col className="Header-Information-Row-Col1">
             <div className="Header-Information-Row-Div1">
-              Simon Kim
+              Grace Jo
             </div>
             <div className="Header-Information-Row-Div2">
               NJ LICENSED BROKER
             </div>
             <div className="Header-Information-Row-Div3">
-              201.981.7007
+              201.328.5893
             </div>
           </Col>
           <Col className="Header-Information-Row-Col2">
@@ -48,7 +48,7 @@ function Header() {
               Online Consultation
             </Button>
             <Button className="Header-Information-Row-Col3-Button2">
-              Sold by Simon
+              Sold by Grace
             </Button>
             <Button className="Header-Information-Row-Col3-Button3">
               Real Estate News
