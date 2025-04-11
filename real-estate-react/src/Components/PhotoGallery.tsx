@@ -1,6 +1,6 @@
 import { Card, Container, Row, Col } from "react-bootstrap";
 import "./PhotoGallery.css"
-import img from "../assets/react.svg";
+import img from "../assets/example.jpg";
 
 interface PhotoItem {
     title: string;

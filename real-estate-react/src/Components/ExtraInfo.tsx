@@ -1,5 +1,6 @@
 
 import {Container, Row, Col, Card } from "react-bootstrap";
+import "./ExtraInfo.css"
 
 function ExtraInfo(){
     const infoButtons = [
@@ -29,10 +30,10 @@ function ExtraInfo(){
         <Container fluid className="p-4" style={{ backgroundColor: '#E0F0FF', minHeight: '100vh' }}>
           <Row lg={3}>
             <Col>
-                <Container>
+                <Container className="Container-1">
                     <Row lg={2}>
                     {infoButtons.map((button, index) => (
-                        <Card key={index} className="mb-3">
+                        <Card key={index} className="card1 mb-3 rounded-0">
                             <Card.Body>
                                 <Card.Title>{button.text}</Card.Title>
                                 <Card.Text>{button.subtext}</Card.Text>
@@ -44,8 +45,8 @@ function ExtraInfo(){
                 </Container>
             </Col>
             <Col>
-                <Container>
-                    <Card>
+                <Container className="Container-2">
+                    <Card className="card2 rounded-0">
                         <Card.Body>
                             <Card.Title>Real Estate News</Card.Title>
                             <ul style={{ listStyleType: 'none', padding: 0 }}>
@@ -60,12 +61,12 @@ function ExtraInfo(){
                 </Container>
             </Col>
             <Col>
-                <Container>
+                <Container className="Container-3">
                     <Card>
                         <Card.Body>
                             <Card.Title>Real Estate News</Card.Title>
                             {links.map((link, index) => (
-                                <Card key={index} className="mb-3">
+                                <Card key={index} className="card3 mb-3 rounded-0">
                                     <Card.Body>
                                         <Card.Title>{link.text}</Card.Title>
                                         <Card.Text>{link.subtext}</Card.Text>

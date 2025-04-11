@@ -10,12 +10,12 @@ interface CardItem {
 
 const VideoList: React.FC = () => {
   const cards: CardItem[] = [
-    { title: "Card 1", content: "This is the content of card 1.", YoutubeURL: "https://www.youtube.com/embed/ZqOPh-QZl7Y?si=dUGAcvCkUCkVRsNz" },
-    { title: "Card 2", content: "This is the content of card 2.", YoutubeURL: "https://www.youtube.com/embed/ZqOPh-QZl7Y?si=dUGAcvCkUCkVRsNz" },
-    { title: "Card 3", content: "This is the content of card 3.", YoutubeURL: "https://www.youtube.com/embed/ZqOPh-QZl7Y?si=dUGAcvCkUCkVRsNz" },
-    { title: "Card 4", content: "This is the content of card 4.", YoutubeURL: "https://www.youtube.com/embed/ZqOPh-QZl7Y?si=dUGAcvCkUCkVRsNz" },
-    { title: "Card 5", content: "This is the content of card 5.", YoutubeURL: "https://www.youtube.com/embed/ZqOPh-QZl7Y?si=dUGAcvCkUCkVRsNz" },
-    { title: "Card 6", content: "This is the content of card 6.", YoutubeURL: "https://www.youtube.com/embed/ZqOPh-QZl7Y?si=dUGAcvCkUCkVRsNz" },
+    { title: "Example Card", content: "Example Video", YoutubeURL: "https://www.youtube.com/embed/a3ICNMQW7Ok?si=VTHbDfANCfi7ifEx" },
+    { title: "Example Card", content: "Example Video", YoutubeURL: "https://www.youtube.com/embed/a3ICNMQW7Ok?si=VTHbDfANCfi7ifEx" },
+    { title: "Example Card", content: "Example Video", YoutubeURL: "https://www.youtube.com/embed/a3ICNMQW7Ok?si=VTHbDfANCfi7ifEx" },
+    { title: "Example Card", content: "Example Video", YoutubeURL: "https://www.youtube.com/embed/a3ICNMQW7Ok?si=VTHbDfANCfi7ifEx" },
+    { title: "Example Card", content: "Example Video", YoutubeURL: "https://www.youtube.com/embed/a3ICNMQW7Ok?si=VTHbDfANCfi7ifEx" },
+    { title: "Example Card", content: "Example Video", YoutubeURL: "https://www.youtube.com/embed/a3ICNMQW7Ok?si=VTHbDfANCfi7ifEx" },
   ];
 
   return (
