@@ -9,9 +9,6 @@ p{
 }
 
 .Col-1{
-    border-radius: 2px;
-    border-style: solid;
-    border-color: red;
     position: relative; 
     padding-top: 50px;
     text-align: right;
@@ -19,27 +16,18 @@ p{
 }
 
 .Col-2{
-    border-radius: 2px;
-    border-style: solid;
-    border-color: green;
     position: relative; 
     padding-top: 50px;
     text-align: left;
 }
 
 .Col-3{
-    border-radius: 2px;
-    border-style: solid;
-    border-color: yellow;
     position: relative; 
     padding-top: 50px;
     text-align: left;
 }
 
 .Col-4{
-    border-radius: 2px;
-    border-style: solid;
-    border-color:purple;
     position: relative; 
     padding-top: 50px;
     text-align: left;

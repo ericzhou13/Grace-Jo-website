@@ -35,16 +35,18 @@ function Footer(){
     ]
 
     return (
-        <Container fluid>
-            <Row lg = {4}>
+        <Container fluid style={{backgroundColor: "grey"}}>
+            <Row lg = {6} style={{height: "350px"}}>
+                <Col>
+                </Col>
                 <Col className = "Col-1">
-                    <img src={remaximg} style={{ width: '200px', height: '50px', top: '100px' }}></img>
+                    <img src={remaximg} style={{ width: '250px', height: '40px'}}></img>
                 </Col>
                 <Col className = "Col-2">
-                    <p> Links</p>
+                    <p style={{fontSize: "19px", fontFamily: "sans-serif"}}> Links</p>
                     <ul>
                         {links.map((link, index) => (
-                        <li key={index}>
+                        <li key={index} style={{fontSize: "16px", fontFamily: "sans-serif"}}>
                             {link.content}
                         </li>
                         ))}
@@ -52,10 +54,10 @@ function Footer(){
                 
                 </Col>
                 <Col className = "Col-3">
-                    <p> Simon Kim</p>
+                    <p style={{fontSize: "19px", fontFamily: "sans-serif"}}> Simon Kim</p>
                     <ul>
                         {realtor.map((realtor, index) => (
-                            <li key={index}>
+                            <li key={index} style={{fontSize: "16px", fontFamily: "sans-serif"}}>
                                 {realtor.content}
                             </li>
                         ))}
@@ -63,21 +65,18 @@ function Footer(){
                     
                 </Col>
                 <Col className = "Col-4">
-                    <p> Remax Now</p>
+                    <p style={{fontSize: "19px", fontFamily: "sans-serif"}}> Remax Now</p>
                     <ul>
                         {remax.map((remax, index) => (
-                            <li key={index}>
+                            <li key={index} style={{fontSize: "16px", fontFamily: "sans-serif"}}>
                                 {remax.content}
                             </li>
                         ))}
                     </ul>
                 </Col>
             </Row>
-            <Row lg= {1}>
-                <Col>
-                    This is the footer
-                
-                </Col>
+            <Row lg= {1} style={{backgroundColor: "black", color: "white", paddingLeft: "300px"}}>
+                © 2025 NJSTREET. All Rights Reserved.
             </Row>
         </Container>
     );

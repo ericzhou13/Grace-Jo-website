@@ -1,24 +1,9 @@
-.Container-1{
-
-}
-
 .card1{
+    margin: 2%;
     padding: 0%;
-    
 }
 
-.Container-2{
-
-}
-
-.card2{
-
-}
-
-.Container-3{
-
-}
-
-.card3{
-
+.main-container{
+    padding-top: 10% !important; 
+    padding-bottom: 10% !important;
 }
